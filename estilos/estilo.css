@@ -1,0 +1,30 @@
+.cuerpo{
+    background-color: aliceblue;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "cabeza cabeza"
+    "nav nav"
+    "contenido ads"
+    "footer footer";
+}
+.cuerpo .cabeza{
+    background-color: rgb(223, 223, 223);
+    grid-area: cabeza;
+}
+.cuerpo .nav{
+ background-color: rgb(231, 225, 217);
+    grid-area: nav;
+}
+.cuerpo .contenido{
+    background-color: rgb(255, 255, 255);
+    grid-area: contenido;
+}
+.cuerpo .ads{
+    background-color: rgb(223, 223, 223);
+    grid-area: ads;
+}
+.cuerpo .footer{
+    background-color: rgb(223, 223, 223);
+    grid-area: footer;
+}
